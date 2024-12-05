@@ -23,7 +23,7 @@
               },
               "color": "rgba(148, 0, 211, 0.4)",
               "mapping": "header",
-              "customBlockName": ""
+              "customBlockName": "header"
             }
           ],
           "settings": {}
@@ -37,6 +37,21 @@
         {
           "id": "2-1",
           "blocks": [
+            {
+              "id": "box-id-1160344884",
+              "x": 0,
+              "y": 80,
+              "width": 2884,
+              "height": 397,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.3)",
+              "mapping": "hero",
+              "customBlockName": "aihero"
+            },
             {
               "id": "box-id--1626748849",
               "x": 0,
@@ -68,7 +83,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.4)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "aicolumns1"
             },
             {
               "id": "box-id-330880877",
@@ -83,7 +98,7 @@
               },
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text"
             },
             {
               "id": "box-id-330880908",
@@ -108,7 +123,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "centered-content"
             },
             {
               "id": "box-id--179653300",
@@ -123,7 +138,7 @@
               },
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text"
             },
             {
               "id": "box-id--179653269",
@@ -148,7 +163,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "ai-2-2-columns"
             },
             {
               "id": "box-id--179653238",
@@ -173,7 +188,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "ai-2-2-columns"
             },
             {
               "id": "box-id--179653207",
@@ -198,7 +213,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "ai-2-2-columns"
             },
             {
               "id": "box-id--690187477",
@@ -213,7 +228,7 @@
               },
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text"
             },
             {
               "id": "box-id--690187446",
@@ -238,7 +253,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "centered-content"
             },
             {
               "id": "box-id--690187415",
@@ -263,7 +278,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text-2"
             },
             {
               "id": "box-id--1200721654",
@@ -278,7 +293,7 @@
               },
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text"
             },
             {
               "id": "box-id--1200721623",
@@ -307,7 +322,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "cards",
-              "customBlockName": ""
+              "customBlockName": "aicards"
             },
             {
               "id": "box-id--1711255831",
@@ -322,7 +337,7 @@
               },
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text"
             },
             {
               "id": "box-id--1711255800",
@@ -347,7 +362,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "ai-2-2-columns"
             },
             {
               "id": "box-id-2073177288",
@@ -362,7 +377,7 @@
               },
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-text"
             },
             {
               "id": "box-id-2073177319",
@@ -391,7 +406,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "cards",
-              "customBlockName": ""
+              "customBlockName": "aicards"
             },
             {
               "id": "box-id-2073177350",
@@ -416,7 +431,7 @@
               ],
               "color": "rgba(75, 0, 130, 0.3)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "centered-content"
             }
           ],
           "settings": {}
@@ -469,7 +484,7 @@
               ],
               "color": "rgba(0, 0, 255, 0.4)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "complex-columns"
             },
             {
               "id": "box-id-509430641",
@@ -484,7 +499,7 @@
               },
               "color": "rgba(0, 0, 255, 0.4)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "default-text"
             }
           ],
           "settings": {}
