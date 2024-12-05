@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: MBCorpoA;
-  src: url('../fonts/mbcorpoa-400-normal.woff') format('woff');
+  font-family: MBCorpoS;
+  src: url('../fonts/mbcorpos-400-normal.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@
 }
 
 @font-face {
-  font-family: MBCorpoS;
-  src: url('../fonts/mbcorpos-400-normal.woff') format('woff');
+  font-family: MBCorpoA;
+  src: url('../fonts/mbcorpoa-400-normal.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

@@ -44,14 +44,14 @@
 }
 
 @font-face {
-  font-family:"MBCorpoA Fallback";
+  font-family:"MBCorpoS Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
-  ascent-override:121.49%;
-  descent-override:40.34%;
+  ascent-override:101.01%;
+  descent-override:33.54%;
   line-gap-override:0.00%;
-  size-adjust:82.31%;
+  size-adjust:99.00%;
 }
 
 @font-face {
@@ -66,14 +66,14 @@
 }
 
 @font-face {
-  font-family:"MBCorpoS Fallback";
+  font-family:"MBCorpoA Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
-  ascent-override:101.01%;
-  descent-override:33.54%;
+  ascent-override:121.49%;
+  descent-override:40.34%;
   line-gap-override:0.00%;
-  size-adjust:99.00%;
+  size-adjust:82.31%;
 }
 
 @media (width>=900px) {
