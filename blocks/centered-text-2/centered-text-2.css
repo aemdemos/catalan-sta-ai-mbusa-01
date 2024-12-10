@@ -1,0 +1,63 @@
+
+.centered-text-2-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.centered-text-2.block {
+    width: 100%;
+    max-width: 800px;
+}
+
+.centered-text-2.block > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered-text-2.block > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.centered-text-2.block > div > div > p:nth-child(2) {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.centered-text-2.block > div > div > p:nth-child(2)::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.centered-text-2.block > div > div > h4,
+.centered-text-2.block > div > div > h3,
+.centered-text-2.block > div > div > p,
+.centered-text-2.block > div > div > ul {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.centered-text-2.block > div > div > h4,
+.centered-text-2.block > div > div > h3 {
+    font-weight: bold;
+}
+
+.centered-text-2.block > div > div > ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.centered-text-2-wrapper > .centered-text-2.block > div > div > p:first-child,
+.centered-text-2-wrapper > .centered-text-2.block > div > div > p:nth-child(3) {
+    display: none;
+}

@@ -1,0 +1,64 @@
+
+.default-text-wrapper {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff; /* Assuming a white background */
+}
+
+.default-text-wrapper > .default-text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds space between rows */
+}
+
+.default-text-wrapper > .default-text > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.default-text-wrapper ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.default-text-wrapper > .default-text > div > div > ul > li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adds space between the main link and the sub-list */
+}
+
+.default-text-wrapper > .default-text > div > div > ul > li > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Adjusted space between links */
+}
+
+.default-text-wrapper > .default-text > div > div > ul > li > ul > li {
+  display: inline-flex; /* Display links inline */
+  align-items: center; /* Align links vertically in the center */
+}
+
+.default-text-wrapper > .default-text > div > div > ul > li > a {
+  color: #131313; /* Matching the text color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.default-text-wrapper > .default-text > div > div > ul > li > ul > li > a {
+  color: #131313; /* Matching the text color for nested links */
+}
+
+.default-text-wrapper p {
+  text-decoration: underline; /* Underline disclaimer text */
+  margin: 0;
+  display: inline-flex; /* Use inline-flex to align the text and icon properly */
+  align-items: center;
+  gap: 5px; /* Space between text and arrow icon */
+}
+
+.default-text-wrapper p::after {
+  content: '▼';
+  margin-left: 5px; /* Space between the link and the arrow icon */
+  vertical-align: middle; /* Align icon vertically with text */
+  font-size: inherit; /* Ensure the icon matches the text size */
+}

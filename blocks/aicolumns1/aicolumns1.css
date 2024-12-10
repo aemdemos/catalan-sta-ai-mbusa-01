@@ -1,0 +1,45 @@
+
+.aicolumns1-wrapper > .aicolumns1 > div {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal alignment */
+  justify-content: space-between; /* Ensures even spacing between the button containers */
+  align-items: center; /* Vertically centers the contents of each button container */
+  border-bottom: 1px solid #ddd; /* Adds a bottom border for visual separation */
+  padding: 10px 0; /* Adds padding to the top and bottom for better alignment */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div > .button-container {
+  display: flex;
+  flex-direction: row; /* Ensures children are aligned horizontally */
+  align-items: center;
+  justify-content: center; /* Centers the text within the container */
+  padding: 0 20px; /* Adds padding for spacing around the text */
+  position: relative; /* Allows for positioning of the vertical divider */
+  flex: 1; /* Ensures all button containers take equal space */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div > .button-container:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Centers the divider vertically */
+  height: 100%; /* Adjusts the height of the divider */
+  width: 1px;
+  background-color: #ddd; /* Divider color */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div > .button-container a {
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  color: inherit; /* Use text color */
+  text-decoration: none; /* Remove underline */
+  padding: 0; /* Remove padding */
+  border-radius: 0; /* Remove rounded corners */
+  display: inline-flex; /* Ensures the link is an inline-flex container */
+  align-items: center;
+  justify-content: center; /* Centers the text within the link */
+  height: 100%; /* Ensures the link takes full height */
+  line-height: 1; /* Ensures vertical centering */
+  text-align: center; /* Ensures the text is centered */
+}

@@ -1,0 +1,46 @@
+
+/* Apply flexbox to the parent div for side-by-side layout */
+.ai-2-2-columns-wrapper > .ai-2-2-columns {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side-by-side */
+  align-items: flex-start; /* Align items at the top */
+  justify-content: space-between; /* Ensure space is distributed evenly */
+}
+
+/* Ensure the child divs take up their natural width */
+.ai-2-2-columns-wrapper > .ai-2-2-columns > div {
+  display: flex;
+  flex-direction: row; /* Ensure nested elements are side-by-side */
+  align-items: flex-start; /* Align nested elements at the top */
+  width: 100%;
+}
+
+.ai-2-2-columns-wrapper > .ai-2-2-columns > div > div:first-child {
+  flex: 1;
+  margin-right: 16px; /* Adjust margin between text and image for better alignment */
+}
+
+.ai-2-2-columns-wrapper > .ai-2-2-columns .ai-2-2-columns-img-col {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* Ensure image is aligned at the top */
+}
+
+/* Ensure the image scales appropriately */
+.ai-2-2-columns-wrapper > .ai-2-2-columns .ai-2-2-columns-img-col img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 900px) {
+  .ai-2-2-columns-wrapper > .ai-2-2-columns {
+    align-items: flex-start; /* Align items at the top */
+    flex-direction: row; /* Ensure elements are side-by-side */
+    gap: 0; /* Remove extra gap */
+  }
+
+  .ai-2-2-columns-wrapper > .ai-2-2-columns > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

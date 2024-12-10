@@ -1,0 +1,76 @@
+
+.centered-content-wrapper .centered-content.block {
+  display: flex;
+  flex-direction: column; /* Ensure vertical stacking */
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color); /* White background for the text section */
+}
+
+.centered-content-wrapper .centered-content.block > div {
+  width: 100%;
+}
+
+.centered-content-wrapper .centered-content.block > div:nth-child(1) {
+  order: 0;
+}
+
+.centered-content-wrapper .centered-content.block > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the start (left) */
+  order: 1;
+  padding: 20px 0; /* Add vertical padding */
+}
+
+.centered-content-wrapper .centered-content.block .centered-content-img-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.centered-content-wrapper .centered-content.block .centered-content-img-col picture,
+.centered-content-wrapper .centered-content.block .centered-content-img-col img {
+  width: 100%;
+  height: auto;
+}
+
+.centered-content-wrapper .centered-content.block h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.centered-content-wrapper .centered-content.block p {
+  margin-bottom: 20px;
+}
+
+.centered-content-wrapper .centered-content.block .button-container {
+  display: flex;
+  justify-content: center; /* Center the button container horizontally */
+  width: 100%; /* Ensure the button container takes full width */
+  margin-top: 30px; /* Increase spacing above the button */
+}
+
+.centered-content-wrapper .centered-content.block .button-container .button {
+  display: inline-block;
+  background-color: var(--link-color); /* Adjust based on desired button color */
+  color: var(--background-color);
+  padding: 10px 20px; /* Decrease padding to match the original button size */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media (min-width: 900px) {
+  .centered-content-wrapper .centered-content.block {
+    flex-direction: column; /* Ensure vertical stacking even on larger screens */
+    align-items: center;
+  }
+
+  .centered-content-wrapper .centered-content.block > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the start (left) */
+    padding: 20px 0; /* Add vertical padding */
+  }
+}

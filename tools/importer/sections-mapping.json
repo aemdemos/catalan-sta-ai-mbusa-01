@@ -16,7 +16,7 @@
               "y": 0,
               "width": 2884,
               "height": 80,
-              "xpath": "/html[1]/body[1]/div[1]/header[1]/nav[1]",
+              "xpath": "/html[1]/body[1]//header[1]/nav[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -43,7 +43,7 @@
               "y": 80,
               "width": 2884,
               "height": 397,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/div[1]/section[1]/div[2]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -58,26 +58,26 @@
               "y": 477,
               "width": 2884,
               "height": 57,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/nav[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/nav[1]",
               "layout": {
                 "numCols": 4,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]",
                   "xpathWithDetails": "id(\"sticky-nav-links-_m4bauyw57eyq5\")/li[@class=\"sticky-nav__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[3]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[3]",
                   "xpathWithDetails": "id(\"sticky-nav-links-_m4bauyw57eyq5\")/li[@class=\"sticky-nav__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[5]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[5]",
                   "xpathWithDetails": "id(\"sticky-nav-links-_m4bauyw57eyq5\")/li[@class=\"sticky-nav__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[6]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[6]",
                   "xpathWithDetails": "id(\"sticky-nav-links-_m4bauyw57eyq5\")/li[@class=\"sticky-nav__item\"]"
                 }
               ],
@@ -91,7 +91,7 @@
               "y": 534,
               "width": 1170,
               "height": 64,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/div[1]/div[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[1]/div[1]/div[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -106,18 +106,18 @@
               "y": 598,
               "width": 1170,
               "height": 740,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/div[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[1]/div[1]/div[2]",
               "layout": {
                 "numCols": 1,
                 "numRows": 2
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/div[1]/div[2]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[1]/div[1]/div[2]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"about\")/div[@class=\"fixed-width-media\"]/section[@class=\"module-separator wrapper\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/div[1]/div[2]/section[1]/div[2]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[1]/div[1]/div[2]/section[1]/div[2]/div[2]",
                   "xpathWithDetails": "id(\"about\")/div[@class=\"fixed-width-media\"]/section[@class=\"module-separator wrapper\"]/div[@class=\"fixed-width-media__copy-container\"]/div[@class=\"fixed-width-media__text\"]"
                 }
               ],
@@ -131,7 +131,7 @@
               "y": 1371,
               "width": 1170,
               "height": 96,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -146,18 +146,18 @@
               "y": 1467,
               "width": 1170,
               "height": 436,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[2]",
               "layout": {
                 "numCols": 2,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[2]/section[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[2]/section[1]/div[2]",
                   "xpathWithDetails": "id(\"certification\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__copy-container media-text__copy-container--left\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[2]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[2]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"certification\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__media-container media-text__media-container--left\"]"
                 }
               ],
@@ -171,18 +171,18 @@
               "y": 1903,
               "width": 1170,
               "height": 436,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[3]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[3]",
               "layout": {
                 "numCols": 2,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[3]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[3]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"certification\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__media-container media-text__media-container--right\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[3]/section[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[3]/section[1]/div[2]",
                   "xpathWithDetails": "id(\"certification\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__copy-container media-text__copy-container--right\"]"
                 }
               ],
@@ -196,18 +196,18 @@
               "y": 2340,
               "width": 1170,
               "height": 436,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[4]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[4]",
               "layout": {
                 "numCols": 2,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[4]/section[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[4]/section[1]/div[2]",
                   "xpathWithDetails": "id(\"certification\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__copy-container media-text__copy-container--left\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[4]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[2]/div[1]/div[4]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"certification\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__media-container media-text__media-container--left\"]"
                 }
               ],
@@ -221,7 +221,7 @@
               "y": 2841,
               "width": 1170,
               "height": 96,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -236,18 +236,18 @@
               "y": 2937,
               "width": 1170,
               "height": 712,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[2]",
               "layout": {
                 "numCols": 1,
                 "numRows": 2
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[2]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"warranty\")/div[@class=\"fixed-width-media-rich-text\"]/section[@class=\"module-separator wrapper\"]/div[@class=\"fixed-width-media-rich-text__inner\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/section[1]/div[1]/div[2]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[2]/section[1]/div[1]/div[2]/div[2]",
                   "xpathWithDetails": "id(\"warranty\")/div[@class=\"fixed-width-media-rich-text\"]/section[@class=\"module-separator wrapper\"]/div[@class=\"fixed-width-media-rich-text__inner\"]/div[@class=\"fixed-width-media__copy-container fixed-width-media-rich-text__copy-container\"]/div[@class=\"fixed-width-media__text fixed-width-media-rich-text__text\"]"
                 }
               ],
@@ -261,18 +261,18 @@
               "y": 3649,
               "width": 1170,
               "height": 772,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[3]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[3]",
               "layout": {
                 "numCols": 1,
                 "numRows": 2
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[3]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[3]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"warranty\")/div[@class=\"tabbed-module\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"tabbed-module__header\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[3]/section[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[3]/div[1]/div[3]/section[1]/div[2]",
                   "xpathWithDetails": "id(\"tabbed-module-accordion__8e5fe6b4-d38d-40c6-8193-d6f2fae8eed9\")"
                 }
               ],
@@ -286,7 +286,7 @@
               "y": 4453,
               "width": 1170,
               "height": 64,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[4]/div[1]/div[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -301,22 +301,22 @@
               "y": 4517,
               "width": 1170,
               "height": 458,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[4]/div[1]/div[2]",
               "layout": {
                 "numCols": 3,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[4]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]",
                   "xpathWithDetails": "id(\"protection\")/div[@class=\"compact-tile-grid\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"compact-tile-grid__copy-container compact-tile-grid__copy-container--left compact-tile-grid__copy-container--button\"]/div[@class=\"compact-tile-grid__tiles\"]/div[@class=\"content-tile layout-tile-item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[4]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]",
                   "xpathWithDetails": "id(\"protection\")/div[@class=\"compact-tile-grid\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"compact-tile-grid__copy-container compact-tile-grid__copy-container--left compact-tile-grid__copy-container--button\"]/div[@class=\"compact-tile-grid__tiles\"]/div[@class=\"content-tile layout-tile-item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[2]/section[1]/div[1]/div[1]/div[3]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[4]/div[1]/div[2]/section[1]/div[1]/div[1]/div[3]",
                   "xpathWithDetails": "id(\"protection\")/div[@class=\"compact-tile-grid\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"compact-tile-grid__copy-container compact-tile-grid__copy-container--left compact-tile-grid__copy-container--button\"]/div[@class=\"compact-tile-grid__tiles\"]/div[@class=\"content-tile layout-tile-item\"]"
                 }
               ],
@@ -330,7 +330,7 @@
               "y": 5007,
               "width": 1170,
               "height": 96,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[5]/div[1]/div[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[5]/div[1]/div[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -345,18 +345,18 @@
               "y": 5103,
               "width": 1170,
               "height": 436,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[5]/div[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[5]/div[1]/div[2]",
               "layout": {
                 "numCols": 2,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[5]/div[1]/div[2]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[5]/div[1]/div[2]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"byd\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__media-container media-text__media-container--right\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[5]/div[1]/div[2]/section[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[5]/div[1]/div[2]/section[1]/div[2]",
                   "xpathWithDetails": "id(\"byd\")/div[@class=\"media-rich-text\"]/section[@class=\"media-text module-separator wrapper\"]/div[@class=\"media-text__copy-container media-text__copy-container--right\"]"
                 }
               ],
@@ -370,7 +370,7 @@
               "y": 5572,
               "width": 1170,
               "height": 96,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[1]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[1]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0
@@ -385,22 +385,22 @@
               "y": 5668,
               "width": 1170,
               "height": 505,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[2]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[2]",
               "layout": {
                 "numCols": 3,
                 "numRows": 1
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]",
                   "xpathWithDetails": "id(\"benifits\")/div[@class=\"compact-tile-grid\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"compact-tile-grid__copy-container compact-tile-grid__copy-container--left compact-tile-grid__copy-container--button\"]/div[@class=\"compact-tile-grid__tiles\"]/div[@class=\"content-tile layout-tile-item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]",
                   "xpathWithDetails": "id(\"benifits\")/div[@class=\"compact-tile-grid\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"compact-tile-grid__copy-container compact-tile-grid__copy-container--left compact-tile-grid__copy-container--button\"]/div[@class=\"compact-tile-grid__tiles\"]/div[@class=\"content-tile layout-tile-item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[2]/section[1]/div[1]/div[1]/div[3]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[2]/section[1]/div[1]/div[1]/div[3]",
                   "xpathWithDetails": "id(\"benifits\")/div[@class=\"compact-tile-grid\"]/section[@class=\"wrapper module-separator\"]/div[@class=\"compact-tile-grid__copy-container compact-tile-grid__copy-container--left compact-tile-grid__copy-container--button\"]/div[@class=\"compact-tile-grid__tiles\"]/div[@class=\"content-tile layout-tile-item\"]"
                 }
               ],
@@ -414,18 +414,18 @@
               "y": 6173,
               "width": 1170,
               "height": 720,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[3]",
+              "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[3]",
               "layout": {
                 "numCols": 1,
                 "numRows": 2
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[3]/section[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[3]/section[1]/div[1]",
                   "xpathWithDetails": "id(\"benifits\")/div[@class=\"fixed-width-media-rich-text\"]/section[@class=\"module-separator wrapper\"]/div[@class=\"fixed-width-media-rich-text__inner\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[6]/div[1]/div[3]/section[1]/div[1]/div[2]/div[2]",
+                  "xpath": "/html[1]/body[1]//main[1]/div[1]/section[6]/div[1]/div[3]/section[1]/div[1]/div[2]/div[2]",
                   "xpathWithDetails": "id(\"benifits\")/div[@class=\"fixed-width-media-rich-text\"]/section[@class=\"module-separator wrapper\"]/div[@class=\"fixed-width-media-rich-text__inner\"]/div[@class=\"fixed-width-media__copy-container fixed-width-media-rich-text__copy-container\"]/div[@class=\"fixed-width-media__text fixed-width-media-rich-text__text\"]"
                 }
               ],
@@ -451,34 +451,34 @@
               "y": 7018,
               "width": 2884,
               "height": 855,
-              "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]",
+              "xpath": "/html[1]/body[1]//footer[1]/section[1]",
               "layout": {
                 "numCols": 4,
                 "numRows": 3
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]/div[1]/div[1]",
+                  "xpath": "/html[1]/body[1]//footer[1]/section[1]/div[1]/div[1]",
                   "xpathWithDetails": "id(\"footer-accordion\")/div[@class=\"accordion wrapper footer__accordion-container accordion--disabled-large accordion--footer\"]/div[@class=\"column-link-list__column footer__accordion-item accordion__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]/div[1]/div[2]",
+                  "xpath": "/html[1]/body[1]//footer[1]/section[1]/div[1]/div[2]",
                   "xpathWithDetails": "id(\"footer-accordion\")/div[@class=\"accordion wrapper footer__accordion-container accordion--disabled-large accordion--footer\"]/div[@class=\"column-link-list__column footer__accordion-item accordion__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]/div[1]/div[3]",
+                  "xpath": "/html[1]/body[1]//footer[1]/section[1]/div[1]/div[3]",
                   "xpathWithDetails": "id(\"footer-accordion\")/div[@class=\"accordion wrapper footer__accordion-container accordion--disabled-large accordion--footer\"]/div[@class=\"column-link-list__column footer__accordion-item accordion__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]/div[1]/div[4]",
+                  "xpath": "/html[1]/body[1]//footer[1]/section[1]/div[1]/div[4]",
                   "xpathWithDetails": "id(\"footer-accordion\")/div[@class=\"accordion wrapper footer__accordion-container accordion--disabled-large accordion--footer\"]/div[@class=\"column-link-list__column footer__accordion-item accordion__item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]/div[1]/div[5]",
+                  "xpath": "/html[1]/body[1]//footer[1]/section[1]/div[1]/div[5]",
                   "xpathWithDetails": "id(\"footer-accordion\")/div[@class=\"accordion wrapper footer__accordion-container accordion--disabled-large accordion--footer\"]/div[@class=\"stay-connected__stay-in-touch footer__accordion-item\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[1]/div[1]/div[6]",
+                  "xpath": "/html[1]/body[1]//footer[1]/section[1]/div[1]/div[6]",
                   "xpathWithDetails": "id(\"footer-accordion\")/div[@class=\"accordion wrapper footer__accordion-container accordion--disabled-large accordion--footer\"]/div[@class=\"stay-connected__other-sites footer__accordion-item\"]"
                 }
               ],
@@ -492,7 +492,7 @@
               "y": 7889,
               "width": 2884,
               "height": 72,
-              "xpath": "/html[1]/body[1]/div[1]/footer[1]/section[2]",
+              "xpath": "/html[1]/body[1]//footer[1]/section[2]",
               "layout": {
                 "numCols": 0,
                 "numRows": 0

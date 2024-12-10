@@ -1,0 +1,110 @@
+
+.complex-columns-wrapper > .complex-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Adds more space between sections */
+}
+
+/* Top Section */
+.complex-columns-wrapper > .complex-columns > div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px; /* Adds more space between columns */
+}
+
+.complex-columns-wrapper > .complex-columns > div:first-child > div {
+  flex: 1;
+  padding: 0 20px; /* Adds padding within each column */
+}
+
+.complex-columns-wrapper > .complex-columns > div:first-child ul {
+  padding-left: 0; /* Removes default padding from ul */
+  list-style: none; /* Removes default list style */
+}
+
+.complex-columns-wrapper > .complex-columns > div:first-child p,
+.complex-columns-wrapper > .complex-columns > div:first-child ul {
+  margin-bottom: 10px; /* Adds margin between paragraphs and lists */
+}
+
+/* Middle Section */
+.complex-columns-wrapper > .complex-columns > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  align-items: center; /* Centers the content horizontally */
+}
+
+.complex-columns-wrapper > .complex-columns > div:nth-child(2) p {
+  margin-bottom: 10px;
+}
+
+.complex-columns-wrapper > .complex-columns > div:nth-child(2) .email-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centers the input and button horizontally */
+  margin-bottom: 20px; /* Adds space below the input field */
+}
+
+.complex-columns-wrapper > .complex-columns > div:nth-child(2) input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.complex-columns-wrapper > .complex-columns > div:nth-child(2) button {
+  padding: 10px 20px;
+}
+
+.complex-columns-wrapper > .complex-columns > div:nth-child(2) ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Adds more space between social media icons */
+  justify-content: center; /* Centers the social media icons */
+}
+
+/* Bottom Section */
+.complex-columns-wrapper > .complex-columns > div:nth-child(3) {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+}
+
+.complex-columns-wrapper > .complex-columns > div:nth-child(3) ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px; /* Adds more space between links */
+  justify-content: center; /* Centers the links */
+}
+
+.complex-columns-wrapper > .complex-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.complex-columns-wrapper > .complex-columns li {
+  margin: 0;
+}
+
+.complex-columns-wrapper > .complex-columns a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .complex-columns-wrapper > .complex-columns > div:first-child {
+    flex-direction: column;
+  }
+
+  .complex-columns-wrapper > .complex-columns > div:nth-child(2) ul {
+    flex-direction: column;
+  }
+
+  .complex-columns-wrapper > .complex-columns > div:nth-child(3) ul {
+    flex-direction: column;
+  }
+}

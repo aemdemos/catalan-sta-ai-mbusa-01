@@ -1,0 +1,50 @@
+
+.aicards-wrapper {
+  display: flex;
+  justify-content: center; /* Center the list within the wrapper */
+  width: 100%;
+}
+
+.aicards {
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  width: 100%; /* Ensures the block takes full available width */
+}
+
+.aicards ul {
+  display: flex; /* Use Flexbox for the list */
+  flex-direction: row; /* Ensure items are side by side */
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  width: 100%; /* Ensure the ul takes full available width */
+}
+
+.aicards li {
+  display: flex;
+  flex-direction: column; /* Stack elements within each list item vertically */
+  align-items: center; /* Center align content within each item */
+  flex: 1; /* Allow each item to grow and shrink equally */
+  margin: 0 10px; /* Adjust horizontal spacing between items */
+  border: none; /* Remove border */
+}
+
+.aicards-card-image {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the image within its container */
+  margin-bottom: 10px; /* Add some space below the image */
+}
+
+.aicards-card-body {
+  text-align: center; /* Center align text within the body */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+.aicards li img {
+  width: 100%; /* Ensure images take up full width of the container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensure images cover the container without enforcing aspect ratio */
+  line-height: 0; /* Remove line height */
+}

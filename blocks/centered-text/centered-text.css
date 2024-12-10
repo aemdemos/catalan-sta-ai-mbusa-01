@@ -1,0 +1,28 @@
+
+.centered-text-wrapper {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: auto; /* Allow height to be determined by content */
+  min-height: 350px; /* Increase the minimum height to add more vertical space */
+}
+
+.centered-text {
+  text-align: center; /* Ensure text alignment is centered */
+  display: flex; /* Use flexbox for nested elements */
+  justify-content: center; /* Horizontally center the nested content */
+  align-items: center; /* Vertically center the nested content */
+  flex-direction: row; /* Ensure elements inside are side by side */
+}
+
+.centered-text > div {
+  display: flex; /* Use flexbox for nested elements */
+  justify-content: center; /* Horizontally center the nested content */
+  align-items: center; /* Vertically center the nested content */
+  flex-direction: row; /* Ensure elements inside are side by side */
+}
+
+.centered-text h2 {
+  font-weight: 300; /* Adjust the font weight to be lighter */
+  font-size: 2.5rem; /* Adjust the font size to be larger and more refined */
+}
