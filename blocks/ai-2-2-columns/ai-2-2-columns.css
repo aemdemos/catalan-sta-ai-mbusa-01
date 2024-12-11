@@ -32,7 +32,7 @@
   height: auto;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .ai-2-2-columns-wrapper > .ai-2-2-columns {
     align-items: flex-start; /* Align items at the top */
     flex-direction: row; /* Ensure elements are side-by-side */

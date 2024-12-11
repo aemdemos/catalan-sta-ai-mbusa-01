@@ -61,7 +61,7 @@
   font-weight: bold;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .centered-content-wrapper .centered-content.block {
     flex-direction: column; /* Ensure vertical stacking even on larger screens */
     align-items: center;

@@ -60,6 +60,17 @@ header nav .nav-sections ul li {
   color: #fff; /* Assuming white text based on the image */
   cursor: pointer;
   position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+header nav .nav-tools ul {
+  display: flex;
+  flex-direction: row; /* Ensure tools are side by side */
+  gap: 15px; /* Adjust spacing between tools as needed */
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 header nav .nav-sections ul li ul {
@@ -90,15 +101,6 @@ header nav .nav-tools .default-content-wrapper {
   flex-direction: row; /* Ensure tools are side by side */
 }
 
-header nav .nav-tools ul {
-  display: flex;
-  flex-direction: row; /* Ensure tools are side by side */
-  gap: 15px; /* Adjust spacing between tools as needed */
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 header nav .nav-tools ul li {
   color: #fff; /* Assuming white text based on the image */
   cursor: pointer;
@@ -107,14 +109,4 @@ header nav .nav-tools ul li {
 header nav .nav-hamburger {
   display: none;
   visibility: hidden;
-}
-
-/* Ensure all navigation links are displayed */
-header nav .nav-sections ul li {
-  display: inline-block;
-}
-
-/* Remove additional whitespace from the navigation links */
-header nav .nav-sections ul li {
-  white-space: nowrap;
 }
